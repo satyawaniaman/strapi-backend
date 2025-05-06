@@ -1,0 +1,42 @@
+{
+  "kind": "collectionType",
+  "collectionName": "match_mates",
+  "info": {
+    "singularName": "match-mate",
+    "pluralName": "match-mates",
+    "displayName": "match-mate"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "whoAreYou": {
+      "type": "enumeration",
+      "enum": [
+        "STUDENT",
+        "FACULTY",
+        "OTHERS"
+      ]
+    },
+    "gender": {
+      "type": "enumeration",
+      "enum": [
+        "MALE",
+        "FEMALE",
+        "OTHER"
+      ]
+    },
+    "name": {
+      "type": "string"
+    },
+    "message": {
+      "type": "text"
+    },
+    "email": {
+      "type": "email"
+    },
+    "phone": {
+      "type": "biginteger"
+    }
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "kind": "collectionType",
+  "collectionName": "user_forms",
+  "info": {
+    "singularName": "user-form",
+    "pluralName": "user-forms",
+    "displayName": "User Form"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "FirstName": {
+      "type": "string"
+    },
+    "LastName": {
+      "type": "string"
+    },
+    "Email": {
+      "type": "email"
+    },
+    "PhoneNo": {
+      "type": "biginteger",
+      "min": "10"
+    },
+    "SelectSubject": {
+      "type": "enumeration",
+      "enum": [
+        "General",
+        "Refunds",
+        "Booking",
+        "Others"
+      ]
+    },
+    "Message": {
+      "type": "text"
+    }
+  }
+}

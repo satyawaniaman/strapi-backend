@@ -1,0 +1,58 @@
+{
+  "kind": "collectionType",
+  "collectionName": "pgs_data",
+  "info": {
+    "singularName": "pg-data",
+    "pluralName": "pgs-data",
+    "displayName": "pg-data",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "image": {
+      "type": "media",
+      "multiple": true,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "type": {
+      "type": "enumeration",
+      "enum": [
+        "BOYS",
+        "GIRLS",
+        "CO-LIVING"
+      ]
+    },
+    "featured": {
+      "type": "boolean"
+    },
+    "price": {
+      "type": "integer"
+    },
+    "name": {
+      "type": "string"
+    },
+    "location": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "monthly_rent": {
+      "type": "integer"
+    },
+    "security_money": {
+      "type": "integer"
+    },
+    "booking_money": {
+      "type": "integer"
+    }
+  }
+}
